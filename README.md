@@ -1,18 +1,18 @@
-#To-Do List
+# To-Do List
 
 A simple To-Do List application built using HTML, CSS, and JavaScript.
 
-Features
+ <h3>Features</h3>
 
 .Add new tasks
 .Delete tasks
 .Edit task
 
-Technologies Used
+<h3>Technologies Used</h3>
 
 HTML,CSS and JS
 
-How to Use
+<h4>How to Use</h4>
 
 Clone the repository or download the files.
 
