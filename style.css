@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(to right,#0b1767,#2c2a7e,#5e53ae,#8965c3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+   width: 320px;
+   margin: 10px;
+   padding: 5px;
+   background-color: #f3f5e3;
+   box-shadow:  2px 1.5px 3px;
+   border-radius: 5px;
+}
+
+h2{
+    color: #2c2a7e;
+    padding: 8px;
+}
+input{
+    margin: 5px;
+    padding: 5px;
+    height: 2.5rem;
+    width: 250px;
+    border-radius: 5px;
+    border: none;
+}
+
+
+button{
+    margin: 5px;
+    padding: 5px;
+    height: 2.5rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #409037;
+    cursor: pointer;
+}
+
+ul{
+    list-style: none;
+    padding: 3px;
+    margin: 4px;
+}
+/* 
+ul li{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} */
+
+li{
+  border-radius: 5px;
+  font-size: 1rem;
+  margin: 10px;
+  padding: 5px;
+  color: #5e53ae;
+  cursor: pointer;
+  width: 250px;
+}
+
+li .completed{
+     text-decoration: line-through;
+     color: grey;
+}
+
+.containerList{
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid purple;
+    width: 290px;
+    box-shadow: 0px 1px 2px #ab8e8e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* ye delete jb aayega jb ham is delete btn ki class ko add krenge apne js me. */
+.delete-btn{
+    background-color: #e34f3b;
+    border-radius: 5px;
+    font-size: medium;
+    height: 30px;
+    padding: 5px;
+    color: black;
+    cursor: pointer;
+    border: 1px solid purple;
+    width: 30px;
+}
+
+/* ye edit jb ayega jb classlist me isko add krenge toh */
+.edit-btn{
+    background-color: lightblue;
+    border-radius: 5px;
+    font-size: medium;
+    height: 30px;
+    padding: 5px;
+    color: black;
+    cursor: pointer;
+    border: 1px solid purple;
+    width: 30px;
+}
